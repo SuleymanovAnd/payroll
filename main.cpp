@@ -48,6 +48,8 @@ int main() {
     }
     std::cout << name [indexMax] << " "<<surname [indexMax] << " received the maximum payout of "
         << maxPayment << " on the "<<date [indexMax] << std::endl;
+
+    file.close ();
 }
 
 
